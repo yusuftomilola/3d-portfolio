@@ -1,10 +1,29 @@
-import { useState } from "react";
-import "./App.css";
+import { BrowserRouter } from "react-router-dom";
+import "./index.css";
 
-function App() {
-  const [count, setCount] = useState(0);
+import {
+  About,
+  Contact,
+  Experience,
+  Feedbacks,
+  Hero,
+  Navbar,
+  Tech,
+  Works,
+  StarsCanvas,
+} from "./components";
 
-  return <div>3D Portfolio</div>;
-}
+const App = () => {
+  return (
+    <BrowserRouter>
+      <div className="relative z-0 bg-primary">
+        <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
+          <Navbar />
+          <Hero />
+        </div>
+      </div>
+    </BrowserRouter>
+  );
+};
 
 export default App;
