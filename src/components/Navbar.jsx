@@ -30,7 +30,7 @@ const Navbar = () => {
       className={`${
         styles.paddingX
       } w-full flex items-center py-5 fixed top-0 z-50 ${
-        scrolling ? "bg-primary" : "bg-transparent"
+        scrolling ? "bg-[#202020]" : "bg-transparent"
       } transition-all`}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
@@ -70,7 +70,7 @@ const Navbar = () => {
           <img
             src={toggle ? close : menu}
             alt="menu-icon"
-            className="w-[28px] h-[28px] object-contain cursor-pointer"
+            className="w-[28px] h-[28px] object-contain cursor-pointer opacity-70"
             onClick={() => setToggle(!toggle)}
           />
 
