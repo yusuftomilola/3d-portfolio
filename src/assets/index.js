@@ -27,12 +27,27 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import tomato from "./company/tomato.png";
 import kadahive from "./company/kadahive.jpg";
+import lawal from "./lawal.jpg";
+import emmanuel from "./emmanuel.jpg";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import githubb from "./socials/github.svg";
+import linkedin from "./socials/linkedin.svg";
+import love from "./socials/love.svg";
+import phone from "./socials/phone.svg";
+import twitter from "./socials/twitter.svg";
+import whatsapp from "./socials/whatsapp.svg";
+
 export {
+  githubb,
+  linkedin,
+  love,
+  phone,
+  twitter,
+  whatsapp,
   logo,
   backend,
   creator,
@@ -63,4 +78,6 @@ export {
   tripguide,
   tomato,
   kadahive,
+  lawal,
+  emmanuel,
 };

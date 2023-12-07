@@ -25,6 +25,8 @@ import {
   threejs,
   tomato,
   kadahive,
+  emmanuel,
+  lawal,
 } from "../assets";
 
 export const navLinks = [
@@ -159,27 +161,27 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+      "I always knew he will do great things. Started rough but he knows how stuff works now.",
     name: "Emeka Ndubusi",
     designation: "Hub Manager",
     company: "Kadahive",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+    image: kadahive,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Emmanuel",
+      "Tomi is dedicated and comitted to continous Learning. I like that about him. Keep pushing bro.",
+    name: "David Adigun",
     designation: "Tech Talent Instructor",
     company: "React Dev",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+    image: emmanuel,
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+      "A problem solver. Bold insights and creative ideas. Nothing but good words for Tomilola.",
     name: "Abdulmateen Lawal",
-    designation: "CTO",
+    designation: "Technical Product Manager",
     company: "Innovations Inc",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+    image: lawal,
   },
 ];
 

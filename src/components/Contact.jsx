@@ -6,6 +6,10 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+// template_tx9jom8
+// service_xk6rp5y - Google service ID
+// QNGhWkxNr3KBAQCmb - Public API Key
+
 const Contact = () => {
   const formRef = useRef();
   const [loading, setLoading] = useState(false);
@@ -15,10 +19,47 @@ const Contact = () => {
     message: "",
   });
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+
+    setForm({ ...form, [name]: value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        "service_xk6rp5y",
+        "template_tx9jom8",
+        {
+          from_name: form.name,
+          to_name: "Tomilola",
+          from_email: form.email,
+          to_email: "tomilolaaaaa@gmail.com",
+          message: form.message,
+        },
+        "QNGhWkxNr3KBAQCmb"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          alert("Thank you for your message. I will get back to you shortly.");
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+
+          console.log(error);
+
+          alert("Something went wrong");
+        }
+      );
   };
 
   return (

@@ -8,12 +8,17 @@ const Stars = (props) => {
 
   const sphere = random.inSphere(new Float32Array(5000), { radius: 1.2 });
 
+  useFrame((state, delta) => {
+    ref.current.rotation.x -= delta / 10;
+    ref.current.rotation.y -= delta / 15;
+  });
+
   return (
     <group rotation={[0, 0, Math.PI / 4]}>
       <Points ref={ref} position={sphere} stride={3} frustumCulled {...props}>
         <PointMaterial
           transparent
-          color="#f272c8"
+          color="#fff"
           size={0.002}
           sizeAttenuation={true}
           depthWrite={false}
@@ -25,14 +30,21 @@ const Stars = (props) => {
 
 const StarsCanvas = () => {
   return (
-    <div className="absolute w-full h-auto inset-0 z-[-1]">
-      <Canvas camera={{ position: [0, 0, 1] }}>
+    <div className="absolute w-full h-full inset-0 z-[-1]">
+      <img
+        src="https://images.pexels.com/photos/1694000/pexels-photo-1694000.jpeg?auto=compress&cs=tinysrgb&w=1500"
+        alt="stars"
+        loading="lazy"
+        className="object-cover h-full w-full"
+      />
+
+      {/* <Canvas camera={{ position: [0, 0, 1] }}>
         <Suspense fallback={null}>
           <Stars />
         </Suspense>
 
         <Preload all />
-      </Canvas>
+      </Canvas> */}
     </div>
   );
 };
