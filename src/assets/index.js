@@ -34,15 +34,18 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
-import githubb from "./socials/github.svg";
 import linkedin from "./socials/linkedin.svg";
 import love from "./socials/love.svg";
 import phone from "./socials/phone.svg";
 import twitter from "./socials/twitter.svg";
 import whatsapp from "./socials/whatsapp.svg";
+import repository from "./socials/repository.svg";
+
+import preview from "../assets/preview.svg";
 
 export {
-  githubb,
+  preview,
+  repository,
   linkedin,
   love,
   phone,

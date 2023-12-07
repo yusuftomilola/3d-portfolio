@@ -27,7 +27,40 @@ import {
   kadahive,
   emmanuel,
   lawal,
+  github,
+  linkedin,
+  love,
+  phone,
+  twitter,
+  whatsapp,
+  repository,
 } from "../assets";
+
+const socialss = [
+  {
+    icon: repository,
+    url: "https://github.com/naijabuz",
+  },
+  {
+    icon: linkedin,
+    url: "https://www.linkedin.com/in/tomilolaaaaa/",
+  },
+  // {
+  //   icon: love,
+  // },
+  // {
+  //   icon: phone,
+  //   desc: "(+234)7036513120",
+  // },
+  {
+    icon: twitter,
+    url: "https://twitter.com/tomilolaaaaar",
+  },
+  {
+    icon: whatsapp,
+    url: "https://wa.me/+2349059694751/",
+  },
+];
 
 export const navLinks = [
   {
@@ -251,4 +284,11 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  socialss,
+};

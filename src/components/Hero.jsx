@@ -14,7 +14,7 @@ const Hero = () => {
           <div className="w-1 sm:h-80 h-40 violet-gradient" />
         </div>
 
-        <div>
+        <div className="lg:text-[80px] sm:text-[60px] xs:text-[50px] text-[45px]">
           <h1 className={`${styles.heroHeadText} text-[#f0f0f0`}>
             Hi, I'm Tomilola
           </h1>

@@ -1,7 +1,7 @@
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { github } from "../assets";
+import { github, preview } from "../assets";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
@@ -34,12 +34,12 @@ const ProjectCard = ({
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
             <div
               onClick={() => window.open(source_code_link, "_blank")}
-              className="black-gradient w-10 h-10 rounded-full flex justify-center item-center cursor-pointer"
+              className="bg-purple-500 w-10 h-10 rounded-full flex justify-center item-center cursor-pointer"
             >
               <img
-                src={github}
+                src={preview}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain mt-2"
+                className="w-1/2 h-1/2 object-contain mt-[10px]"
               />
             </div>
 
@@ -50,7 +50,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="github"
-                className="w-1/2 h-1/2 object-contain mt-2"
+                className="w-1/2 h-1/2 object-contain mt-[10px]"
               />
             </div>
           </div>
@@ -68,10 +68,7 @@ const ProjectCard = ({
 
         <div className="mt-4 flex flex-wrap gap-2">
           {tags.map((tag) => (
-            <p
-              key={tag.name}
-              className={`text-[13px] ${tag.color} text-[#f0f0f0]`}
-            >
+            <p key={tag.name} className={`text-[13px] text-purple-600 `}>
               #{tag.name}
             </p>
           ))}
