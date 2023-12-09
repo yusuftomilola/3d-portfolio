@@ -9,10 +9,21 @@ const Loader = () => {
 
       <p
         style={{
-          fontSize: 16,
+          fontSize: 11,
           color: "#f0f0f0",
           fontWeight: 800,
           marginTop: 40,
+        }}
+      >
+        3D Model Canvas Loading
+      </p>
+
+      <p
+        style={{
+          fontSize: 16,
+          color: "#f0f0f0",
+          fontWeight: 800,
+          marginTop: 10,
         }}
       >
         {progress.toFixed(2)}%
