@@ -144,7 +144,7 @@ const experiences = [
     iconBg: "#383E56",
     date: "August 2023 - October 2023",
     points: [
-      "Creating responsive websites using WordPress, CSS, JavaScript, and React",
+      "Creating responsive websites using Html, CSS, JavaScript, React & WordPress",
       "Testing and debugging of company's clients' websites",
       "Updating and implementing the latest SEO techniques for both existing and new company projects",
       "Collaboration with UI/UX designers to ensure the technical feasibility of the designs",

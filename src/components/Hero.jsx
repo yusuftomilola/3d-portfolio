@@ -19,8 +19,8 @@ const Hero = () => {
             Hi, I'm Tomilola
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            A results-driven and detail-oriented front-end developer with a
-            passion for creating engaging and user-friendly web experiences.
+            A results driven and detail oriented front-end developer with a
+            passion for creating engaging and user friendly web experiences.
           </p>
         </div>
       </div>
