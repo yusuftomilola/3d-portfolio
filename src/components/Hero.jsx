@@ -18,14 +18,16 @@ const Hero = () => {
           <h1 className={`${styles.heroHeadText} text-[#f0f0f0`}>
             Hi, I'm Tomilola
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+          <p
+            className={`${styles.heroSubText} mt-2 text-white-100 lg:text-[20px] sm:text-[22px] xs:text-[20px] text-[15px]`}
+          >
             A results driven and detail oriented front-end developer with a
             passion for creating engaging and user friendly web experiences.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* <ComputersCanvas /> */}
 
       <div className="absolute xs:bottom-10 bottom-20 w-full flex justify-center items-center">
         <a href="#about">
