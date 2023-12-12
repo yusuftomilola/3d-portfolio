@@ -32,6 +32,7 @@ const FeedbackCard = (props) => {
             src={image}
             alt={`feedback-by-${name}`}
             className="w-10 h-10 rounded-full object-cover"
+            loading="lazy"
           />
         </div>
       </div>

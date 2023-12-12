@@ -34,6 +34,11 @@ import {
   twitter,
   whatsapp,
   repository,
+  imagegenerator,
+  metaverse,
+  naijabuzz300,
+  shoppingcart,
+  portfolio,
 } from "../assets";
 
 const socialss = [
@@ -220,16 +225,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Metaverse Madness",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Metaverse is a new thing in the future, where you can enjoy the feel of virtual world by feeling like it's really real. Immersive designs and appealing animations",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "framer-motion",
         color: "green-text-gradient",
       },
       {
@@ -237,50 +242,98 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: metaverse,
+    source_code_link: "https://github.com/naijabuz/MetaverseMadness",
+    demo_link: "https://the-meta-mad.netlify.app/",
   },
   {
-    name: "Job IT",
+    name: "AI Image Generator",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A web-based application that allows users to create AI images based on their text inputs with options to share with the community and download the images to their devices.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "tailwind",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "OpenAI API",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: imagegenerator,
+    source_code_link: "https://github.com/naijabuz/ai-images-generator",
+    demo_link: "https://ai-imagez-generator.netlify.app/",
   },
   {
-    name: "Trip Guide",
+    name: "NaijaBuzz300",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A music solutions platform offering music promotions services to artistes and stakeholders in the music industry. Equipped with tools like artiste to-do app, etc.",
     tags: [
       {
-        name: "nextjs",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "WordPress",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Elementor",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: naijabuzz300,
+    source_code_link: "https://github.com/naijabuz?tab=repositories",
+    demo_link: "https://naijabuzz300.net/",
+  },
+  {
+    name: "A Minimalist Portfolio",
+    description:
+      "A minimalistic portfolio made for developers to display projects, link to their demo work and social handles",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/naijabuz/minimalist-portfolio",
+    demo_link: "https://my-bio-portfolio.netlify.app/",
+  },
+  {
+    name: "Shopping Cart",
+    description:
+      "A simple shopping cart project for users to add items to cart, display total prices and items, remove items, display all items and clear the items from the cart.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Html",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: shoppingcart,
+    source_code_link:
+      "https://github.com/naijabuz/clothing-store/tree/main/Shopping-Cart",
+    demo_link: "https://shoppng-cart.netlify.app/",
   },
 ];
 

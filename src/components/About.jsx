@@ -47,11 +47,11 @@ const About = () => {
         className="mt-4 text-secondary max-w-3xl leading-[30px]"
       >
         My name is Yusuf Tomilola Falade. My close friends call me Tomilola. I
-        am a skilled Front-End Developer with experience in CSS, JavaScript,
-        React, TailwindCSS & WordPress, including Three.js (JavaScript 3D
-        Library). A quick learner who loves networking and meeting new people, i
-        am constantly looking for opportunities to showcase and sharpen my
-        skills.
+        am a skilled Front-End Developer with experience in Html, CSS,
+        JavaScript, React, TailwindCSS & WordPress, including Three.js
+        (JavaScript 3D Library). A quick learner who loves networking and
+        meeting new people, i am constantly looking for opportunities to
+        showcase and sharpen my skills.
         <br />
         <br />I collaborate closely with clients & team members to create
         efficient, scalable and user-friendly solutions that solves real-world

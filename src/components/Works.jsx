@@ -13,6 +13,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  demo_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -29,16 +30,17 @@ const ProjectCard = ({
             src={image}
             alt={name}
             className="w-full h-full object-cover rounded-2xl"
+            loading="lazy"
           />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-2">
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => window.open(demo_link, "_blank")}
               className="bg-purple-500 w-10 h-10 rounded-full flex justify-center item-center cursor-pointer"
             >
               <img
                 src={preview}
-                alt="github"
+                alt="preview-logo"
                 className="w-1/2 h-1/2 object-contain mt-[10px]"
               />
             </div>
@@ -59,7 +61,7 @@ const ProjectCard = ({
         <div className="mt-5">
           <h3
             className="font-bold text-[24px] cursor-pointer"
-            onClick={() => window.open("https://falytom.com", "_blank")}
+            onClick={() => window.open(demo_link, "_blank")}
           >
             {name}
           </h3>

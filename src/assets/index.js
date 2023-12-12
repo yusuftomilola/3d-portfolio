@@ -43,7 +43,18 @@ import repository from "./socials/repository.svg";
 
 import preview from "../assets/preview.svg";
 
+import imagegenerator from "./projects/imagegenerator.jpg";
+import metaverse from "./projects/metaversemadness.jpg";
+import naijabuzz300 from "./projects/naijabuzz300.jpg";
+import shoppingcart from "./projects/shoppingcart.jpg";
+import portfolio from "./projects/tomilolaportfolio.jpg";
+
 export {
+  imagegenerator,
+  metaverse,
+  naijabuzz300,
+  shoppingcart,
+  portfolio,
   preview,
   repository,
   linkedin,
