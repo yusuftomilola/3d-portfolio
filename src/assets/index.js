@@ -49,9 +49,9 @@ import naijabuzz300 from "./projects/naijabuzz300.jpg";
 import shoppingcart from "./projects/shoppingcart.jpg";
 import portfolio from "./projects/tomilolaportfolio.jpg";
 
-import summarizer from "./projects/summarizer.png";
-import travelbuddy from "./projects/travelbuddy.png";
-import trendsgram from "./projects/trendsgram.png";
+import summarizer from "./projects/summarizer.jpg";
+import travelbuddy from "./projects/travelbuddy.jpg";
+import trendsgram from "./projects/trendsgram.jpg";
 
 export {
   summarizer,
