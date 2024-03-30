@@ -1,5 +1,4 @@
 import {
-  internpulse,
   mobile,
   backend,
   creator,
@@ -40,6 +39,9 @@ import {
   naijabuzz300,
   shoppingcart,
   portfolio,
+  summarizer,
+  trendsgram,
+  travelbuddy,
 } from "../assets";
 
 const socialss = [
@@ -92,6 +94,10 @@ const services = [
     title: "WordPress Developer",
     icon: backend,
   },
+  {
+    title: "Technical Content Writer",
+    icon: creator,
+  },
 ];
 
 const technologies = [
@@ -135,21 +141,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "Frontend Developer Intern",
-    company_name: "InternPulse",
-    icon: internpulse,
-    iconBg: "#383E56",
-    date: "January 2024 - February 2024",
-    points: [
-      "Iteratively collaborated with UI/UX designers on Figma to code designs into responsive and functionally usable web pages.",
-      "Consumed and integrated API endpoints from various sources, ensuring data encryption, data retrieval, manipulation, and display.",
-      "Worked with product designers to implement user interfaces that are both aesthetically pleasing and functional",
-      "Collaborated with back-end developers to establish and maintain API specifications and documentation.",
-      "Stayed up-to-date on the latest front-end technologies and trends.",
-    ],
-  },
-  {
-    title: "Web Development Intern",
+    title: "Web Developer Intern",
     company_name: "KadaHive Tech Hub",
     icon: kadahive,
     iconBg: "#383E56",
@@ -235,6 +227,76 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TrendsGram",
+    description:
+      "A social media platform where authenticated users can create and share posts with everyone on the platform. Some of the features includes user accounts, home feeds, like and save posts, etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescripts",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trendsgram,
+    source_code_link: "https://github.com/naijabuz/trendsgram",
+    demo_link: "https://trendsgram.vercel.app/",
+  },
+  {
+    name: "Travel Buddy",
+    description:
+      "A trvel guide website with modern and eye cathing designs optimized for performance and mobile responsiveness across all platforms",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelbuddy,
+    source_code_link: "https://github.com/naijabuz/travel-buddy",
+    demo_link: "https://travel-buddy-nu.vercel.app/",
+  },
+  {
+    name: "Openai Article Summarizer",
+    description:
+      "An SPA web app where users can input the url to an article website and the platform summarizes the whole text for the user. Features: Saves users previous searhces in local storage, well structured",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapid-API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summarizer,
+    source_code_link: "https://github.com/naijabuz/ai-article-summarizer",
+    demo_link: "https://ai-article-summariza.netlify.app/",
+  },
   {
     name: "Metaverse Madness",
     description:
