@@ -40,6 +40,9 @@ import {
   naijabuzz300,
   shoppingcart,
   portfolio,
+  summarizer,
+  trendsgram,
+  travelbuddy,
 } from "../assets";
 
 const socialss = [
@@ -235,6 +238,76 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "TrendsGram",
+    description:
+      "A social media platform where authenticated users can create and share posts with everyone on the platform. Some of the features includes user accounts, home feeds, like and save posts, etc.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "appwrite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "typescripts",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trendsgram,
+    source_code_link: "https://github.com/naijabuz/trendsgram",
+    demo_link: "https://trendsgram.vercel.app/",
+  },
+  {
+    name: "Travel Buddy",
+    description:
+      "A trvel guide website with modern and eye cathing designs optimized for performance and mobile responsiveness across all platforms",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: travelbuddy,
+    source_code_link: "https://github.com/naijabuz/travel-buddy",
+    demo_link: "https://travel-buddy-nu.vercel.app/",
+  },
+  {
+    name: "Openai Article Summarizer",
+    description:
+      "An SPA web app where users can input the url to an article website and the platform summarizes the whole text for the user. Features: Saves users previous searhces in local storage, well structured",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "rapid-API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: summarizer,
+    source_code_link: "https://github.com/naijabuz/ai-article-summarizer",
+    demo_link: "https://ai-article-summariza.netlify.app/",
+  },
   {
     name: "Metaverse Madness",
     description:

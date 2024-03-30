@@ -49,10 +49,21 @@ import naijabuzz300 from "./projects/naijabuzz300.jpg";
 import shoppingcart from "./projects/shoppingcart.jpg";
 import portfolio from "./projects/tomilolaportfolio.jpg";
 
+<<<<<<< HEAD
 import internpulse from "./company/internpulse.jpg";
 
 export {
   internpulse,
+=======
+import summarizer from "./projects/summarizer.jpg";
+import travelbuddy from "./projects/travelbuddy.jpg";
+import trendsgram from "./projects/trendsgram.jpg";
+
+export {
+  summarizer,
+  travelbuddy,
+  trendsgram,
+>>>>>>> 442457089fb0de86ea18cde4561c8c0171735469
   imagegenerator,
   metaverse,
   naijabuzz300,
