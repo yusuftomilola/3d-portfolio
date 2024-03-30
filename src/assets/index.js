@@ -40,9 +40,7 @@ import phone from "./socials/phone.svg";
 import twitter from "./socials/twitter.svg";
 import whatsapp from "./socials/whatsapp.svg";
 import repository from "./socials/repository.svg";
-
 import preview from "../assets/preview.svg";
-
 import imagegenerator from "./projects/imagegenerator.jpg";
 import metaverse from "./projects/metaversemadness.jpg";
 import naijabuzz300 from "./projects/naijabuzz300.jpg";
@@ -51,7 +49,14 @@ import portfolio from "./projects/tomilolaportfolio.jpg";
 
 import internpulse from "./company/internpulse.jpg";
 
+import travelbuddy from "./projects/travelbuddy.jpg";
+import summarizer from "./projects/summarizer.jpg";
+import trendsgram from "./projects/trendsgram.jpg";
+
 export {
+  trendsgram,
+  travelbuddy,
+  summarizer,
   internpulse,
   imagegenerator,
   metaverse,
