@@ -43,6 +43,7 @@ import {
   summarizer,
   trendsgram,
   travelbuddy,
+  homeme,
 } from "../assets";
 
 const socialss = [
@@ -238,6 +239,32 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "HomeMe",
+    description:
+      "A property listing/rental web application that allows users to list and  thier properties for potential clients to books and rent such properties.",
+    tags: [
+      {
+        name: "NextJs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Shadcn",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: trendsgram,
+    source_code_link: "https://github.com/yusuftomilola/HomeMe",
+    demo_link: "https://home-me-seven.vercel.app/",
+  },
   {
     name: "TrendsGram",
     description:

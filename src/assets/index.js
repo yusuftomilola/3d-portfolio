@@ -52,8 +52,10 @@ import internpulse from "./company/internpulse.jpg";
 import travelbuddy from "./projects/travelbuddy.jpg";
 import summarizer from "./projects/summarizer.jpg";
 import trendsgram from "./projects/trendsgram.jpg";
+import homeme from "./HomeMe.png";
 
 export {
+  homeme,
   trendsgram,
   travelbuddy,
   summarizer,
