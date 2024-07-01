@@ -261,7 +261,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: trendsgram,
+    image: homeme,
     source_code_link: "https://github.com/yusuftomilola/HomeMe",
     demo_link: "https://home-me-seven.vercel.app/",
   },
