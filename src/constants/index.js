@@ -151,10 +151,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "March 2024 - October 2024",
     points: [
-      "Builtmultiple projects, contributing to frontend development, UI/UX, and responsive design",
-      "Designatedasteamleadertolead ateamof5developers on two separate occasions.",
+      "Built multiple projects, contributing to frontend development, UI/UX, and responsive design",
+      "Designated as team leader to lead a team of 5 developers on two separate occasions.",
       "Successfully managed to deliver a challenging project within a tight deadline.",
-      "LearnedFirebase, utilizing it for authentication, storage, and cloud functions in a live project",
+      "Learned Firebase, utilizing it for authentication, storage, and cloud functions in a live project",
     ],
   },
   {
