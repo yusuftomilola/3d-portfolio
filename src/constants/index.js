@@ -49,6 +49,7 @@ import {
   kudaa,
   leadwayy,
   schools,
+  leadway,
 } from "../assets";
 
 const socialss = [
@@ -144,11 +145,24 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Frontend Developer",
+    company_name: "Leadway Assurance",
+    icon: leadway,
+    iconBg: "#383E56",
+    date: "March 2024 - October 2024",
+    points: [
+      "Builtmultiple projects, contributing to frontend development, UI/UX, and responsive design",
+      "Designatedasteamleadertolead ateamof5developers on two separate occasions.",
+      "Successfully managed to deliver a challenging project within a tight deadline.",
+      "LearnedFirebase, utilizing it for authentication, storage, and cloud functions in a live project",
+    ],
+  },
+  {
     title: "Frontend Developer Intern",
     company_name: "InternPulse",
     icon: internpulse,
     iconBg: "#383E56",
-    date: "January 2024 - February 2024",
+    date: "May 2023 - March 2024",
     points: [
       "Iteratively collaborated with UI/UX designers on Figma to code designs into responsive and functionally usable web pages.",
       "Consumed and integrated API endpoints from various sources, ensuring data encryption, data retrieval, manipulation, and display.",
@@ -162,7 +176,7 @@ const experiences = [
     company_name: "KadaHive Tech Hub",
     icon: kadahive,
     iconBg: "#383E56",
-    date: "August 2023 - October 2023",
+    date: "February 2023 - April 2023",
     points: [
       "Creating responsive websites using Html, CSS, JavaScript, React & WordPress",
       "Testing and debugging of company's clients' websites",

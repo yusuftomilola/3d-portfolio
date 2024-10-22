@@ -54,13 +54,15 @@ import summarizer from "./projects/summarizer.jpg";
 import trendsgram from "./projects/trendsgram.jpg";
 import homeme from "./HomeMe.png";
 
-import firstbankk from "./projects/firstbankk.jpg";
-import itermss from "./projects/itermss.jpg";
-import kudaa from "./projects/kudaa.jpg";
-import leadwayy from "./projects/leadwayy.jpg";
-import schools from "./projects/schools.jpg";
+import firstbankk from "./projects/firstbankk.png";
+import itermss from "./projects/itermss.png";
+import kudaa from "./projects/kudaa.png";
+import leadwayy from "./projects/leadwayy.png";
+import schools from "./projects/schools.png";
+import leadway from "./leadwaylogo.jpeg";
 
 export {
+  leadway,
   firstbankk,
   itermss,
   kudaa,
