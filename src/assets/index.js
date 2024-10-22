@@ -54,7 +54,18 @@ import summarizer from "./projects/summarizer.jpg";
 import trendsgram from "./projects/trendsgram.jpg";
 import homeme from "./HomeMe.png";
 
+import firstbankk from "./projects/firstbankk.jpg";
+import itermss from "./projects/itermss.jpg";
+import kudaa from "./projects/kudaa.jpg";
+import leadwayy from "./projects/leadwayy.jpg";
+import schools from "./projects/schools.jpg";
+
 export {
+  firstbankk,
+  itermss,
+  kudaa,
+  leadwayy,
+  schools,
   homeme,
   trendsgram,
   travelbuddy,

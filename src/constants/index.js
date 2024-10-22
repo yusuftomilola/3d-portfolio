@@ -44,6 +44,11 @@ import {
   trendsgram,
   travelbuddy,
   homeme,
+  firstbankk,
+  itermss,
+  kudaa,
+  leadwayy,
+  schools,
 } from "../assets";
 
 const socialss = [
@@ -240,6 +245,29 @@ const testimonials = [
 
 const projects = [
   {
+    name: "SchoolLand",
+    description:
+      "A school management system that enables school owners to create and manage their schools. It includes features such as students, teachers, schools, classrooms, subjects, calenders and much more.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Formik",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Local storage",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: schools,
+    source_code_link:
+      "https://github.com/yusuftomilola/School-Management-System",
+    demo_link: "https://school-management-system-three-alpha.vercel.app/",
+  },
+  {
     name: "HomeMe",
     description:
       "A property listing/rental web application that allows users to list and  thier properties for potential clients to books and rent such properties.",
@@ -264,6 +292,86 @@ const projects = [
     image: homeme,
     source_code_link: "https://github.com/yusuftomilola/HomeMe",
     demo_link: "https://home-me-seven.vercel.app/",
+  },
+  {
+    name: "RefMan",
+    description:
+      "A fully responsive UI referral management sytem for managaging the referrals gotten by sales team. ",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "ChartJS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS UI",
+        color: "pink-text-gradient",
+      },
+    ],
+
+    image: firstbankk,
+    source_code_link:
+      "https://github.com/yusuftomilola/Referral_App_Management_Portal_Leadway",
+    demo_link: "https://referral-portal.netlify.app/",
+  },
+  {
+    name: "Underwriters",
+    description: "A UI clone of an insurance inspection management system",
+    tags: [
+      {
+        name: "Vanilla JS",
+        color: "blue-text-gradient",
+      },
+    ],
+
+    image: leadwayy,
+    source_code_link: "https://github.com/yusuftomilola/Leadway-Completed",
+    demo_link: "https://underwriters-leadway.netlify.app",
+  },
+  {
+    name: "Kuda Clone",
+    description:
+      "A clone of Kuda's main site with all the designs exactly as it is on the main site",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "green-text-gradient",
+      },
+    ],
+
+    image: kudaa,
+    source_code_link: "https://github.com/yusuftomilola/Kuda-landing-page",
+    demo_link: "https://kudaaa.netlify.app/",
+  },
+  {
+    name: "iTerms",
+    description:
+      "An AI powered application that enables small business owners to create legal documents such as terms and conditions, privacy policy documents, cookie policy and much more.",
+    tags: [
+      {
+        name: "ReactJS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TailwindCSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: itermss,
+    source_code_link:
+      "https://github.com/yusuftomilola/iTerms-Legal-Agreements-Generator",
+    demo_link: "https://iterms.vercel.app/",
   },
   {
     name: "TrendsGram",
