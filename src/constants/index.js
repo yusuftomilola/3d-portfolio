@@ -158,7 +158,7 @@ const experiences = [
     ],
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Frontend Developer (Remote)",
     company_name: "InternPulse",
     icon: internpulse,
     iconBg: "#383E56",
